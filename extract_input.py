@@ -12,7 +12,7 @@ except:
  print("Error, check your connection")
  
 try:
- inputs=[(n['name']) for n in soup.findAll('input')]
+ inputs=[(n['email']) for n in soup.findAll('input')]
  for inpt in inputs:
   print(inpt)
 except:
